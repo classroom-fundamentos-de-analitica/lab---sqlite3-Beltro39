@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select substr(c14,1,4) as YEAR, count(*) as CANT from tbl1 where substr(c14,1,4)='2018'; 

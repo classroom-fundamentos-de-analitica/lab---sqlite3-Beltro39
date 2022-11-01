@@ -44,3 +44,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 
+select k0, round(avg(c21),6) from tbl1 INNER JOIN tbl2 ON tbl1.k1 = tbl2.k1 where c13> 400 group by k0;
